@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3F51B5"
+        app:title="Modern Art UI" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="460dp"
+            android:orientation="vertical"
+            android:layout_marginRight="10dp">
+
+            <TextView
+                android:id="@+id/tv_1"
+                android:layout_width="150dp"
+                android:layout_height="0dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:background="#fefeb4" />
+
+            <TextView
+                android:id="@+id/tv_2"
+                android:layout_width="150dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#ffe797" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="460dp"
+            android:orientation="vertical"
+            android:layout_weight="2">
+
+            <TextView
+                android:id="@+id/tv_3"
+                android:layout_width="250dp"
+                android:layout_height="0dp"
+                android:layout_gravity="right"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:background="#feb221" />
+
+            <TextView
+                android:id="@+id/tv_4"
+                android:layout_width="250dp"
+                android:layout_height="0dp"
+                android:layout_gravity="right"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:background="#e6e6e6" />
+
+            <TextView
+                android:id="@+id/tv_5"
+                android:layout_width="250dp"
+                android:layout_height="0dp"
+                android:layout_gravity="right"
+                android:layout_weight="1"
+                android:background="#becf98" />
+
+        </LinearLayout>
+    </TableRow>
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:max="255"
+        android:visibility="visible"
+        />
+
+</TableLayout>

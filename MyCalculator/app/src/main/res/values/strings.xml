@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Máy tính</string>
+    <string name="soA" translatable="false">Số A</string>
+    <string name="soB" translatable="false">Số B</string>
+    <string name="cong" translatable="false">Cộng</string>
+    <string name="tru" translatable="false">Trừ</string>
+    <string name="nhan" translatable="false">Nhân</string>
+    <string name="chia" translatable="false">Chia</string>
+    <string name="kq" translatable="false">Kết quả: </string>
+
+</resources>

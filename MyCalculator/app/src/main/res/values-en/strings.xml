@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="soA" translatable="false">Number A</string>
+    <string name="soB" translatable="false">Number B</string>
+    <string name="cong" translatable="false">Plus</string>
+    <string name="tru" translatable="false">Minus</string>
+    <string name="nhan" translatable="false">Multi</string>
+    <string name="chia" translatable="false">Divis</string>
+    <string name="kq" translatable="false">Result: </string>
+</resources>

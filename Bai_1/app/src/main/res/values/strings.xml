@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">bai_1</string>
+    <string name="dialog_webpage">Visit Website</string>
+    <string name="dialog_cancel">Not now</string>
+    <string name="dialog_title"><![CDATA[Information about the subject and practice groups performing the exercises
+           Click below to learn more!]]></string>
+    <string name="visit_web">Visit Website</string>
+    <string name="not_now">Not now</string>
+</resources>
